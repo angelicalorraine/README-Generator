@@ -5,24 +5,51 @@ let prompt = inquirer.createPromptModule();
 const questions = [
     {
         type: 'input',
-        message: 'What is your name?',
-        name: 'name',
+        message: 'Title of Project?',
+        name: 'title',
     },
     {
         type: 'input',
-        message: 'Where do you live?',
-        name: 'live',
+        message: 'What is the description of your project??',
+        name: 'description',
+    },
+    {
+        type: 'input',
+        message: 'If applicable, what needs to be installed for this project?',
+        name: 'installation',
+    },
+    {
+        type: 'input',
+        message: 'How should one contribute to this project?',
+        name: 'contribution',
+    },
+    {
+        type: 'input',
+        message: 'How would you use this project?',
+        name: 'usage',
+    },
+    {
+        type: 'input',
+        message: 'How do you test this project?',
+        name: 'test',
     },
     {
         type: 'input',
         message: 'What is your GitHub URL?',
-        name: 'git',
+        name: 'github',
     },
     {
         type: 'input',
-        message: 'What is your Linkedin URL?',
-        name: 'linked',
+        message: 'What is your email address?',
+        name: 'email',
     },
+    {
+        type: 'checkbox',
+        message: 'License for Application?',
+        name: 'license',
+        choices: ['Mozilla', 'Apache', 'Mozilla-Public', 'OpenDatabase(ODbL', 'PublicDomain(PDDL)', 'None']
+    },
+
 
 ];
 
