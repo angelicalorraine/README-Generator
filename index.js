@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const fs = require()
+const fs = require('fs');
 
 let prompt = inquirer.createPromptModule();
 const questions = [
@@ -10,7 +10,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What is the description of your project??',
+        message: 'What is the description of your project?',
         name: 'description',
     },
     {
@@ -43,20 +43,17 @@ const questions = [
         message: 'What is your email address?',
         name: 'email',
     },
-    {
-        type: 'checkbox',
-        message: 'License for Application?',
-        name: 'license',
-        choices: ['Mozilla', 'Apache', 'Mozilla-Public', 'OpenDatabase(ODbL', 'PublicDomain(PDDL)', 'None']
-    },
+
 
 
 ];
 
 prompt(questions)
-    .then(({ name, live, git, linked }) => {
+    .then(({ title }) => {
         const template = `
+# ${title}:
+
     `;
-        fs.writeFileSync("./ExampleREADME.md", template);
+        fs.writeFileSync("./exampleREADME.md", template);
 
     })
