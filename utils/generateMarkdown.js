@@ -89,7 +89,9 @@ function generateMarkdown(data) {
   const licenseBadge = LicenseBadge(license);
 
   return `# ${data.title}
-  ${licenseBadge}
+
+
+ ## License: ${licenseBadge}
 
 ## Description
 ${data.description}

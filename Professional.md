@@ -1,8 +1,10 @@
 # Professional
-   
+
+
+ ## License: [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
-generating a readme file
+readme creation
 
 ## Table of Contents
 * [Description](#description)
@@ -14,19 +16,19 @@ generating a readme file
 * [Contact](#questions)
 
 ## Installaion
-inquirer
+Node, Inquirer
 
 ## Usage
-Creating quick readme
+Creating ReadMe
 
 ## Contributing
-Love & Affection
+Love
 
 ## Test
 Node
 
 ## License 
-Licensed under [Apache License 2.0]( ).
+Licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 
 ## Questions
