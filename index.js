@@ -70,7 +70,7 @@ function init() {
         .then((data) => {
             console.log('Answers in prompt', data);
             const generateRead = md.generateMarkdown(data);
-            writeToFile('README', generateRead);
+            writeToFile(`${data.title}`, generateRead);
         });
 
 }
