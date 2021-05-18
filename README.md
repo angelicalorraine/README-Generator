@@ -32,9 +32,6 @@ As this is a public repository anyone can contribute by submitting advice, addit
 
 Test this by using node index.js in your terminal to make sure the document is generating correctly.
 
-🎥 [Walkthrough Video](https://drive.google.com/file/d/1-MkZkyA8LZ5mUMFACunCokUpeo7PaZS3/view)
-![Readme code](utils/README_CODE.png)
-
 ## License
 
 Licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
@@ -44,3 +41,6 @@ Licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.
 - Follow me on Github at [angelicalorraine](http://github.com/angelicalorraine)
 
 - For more questions contact me: gel.lorraine@gmail.com
+
+🎥 [Walkthrough Video](https://drive.google.com/file/d/1-MkZkyA8LZ5mUMFACunCokUpeo7PaZS3/view)
+![Readme code](utils/README_CODE.png)
